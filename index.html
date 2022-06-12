@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css"/>
+		<title> Portafolio con css</title>
+	</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav">
+                <li><a href="#work">Estudios</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#contact">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="mainheader">
+        <div class="container">
+            <div class="showcase">
+                <p class="large txt-title">Hola, Mi nombre es Dulce Lanza</p>
+                <h1>
+                    Estudiante del Instituto Marista<br />
+                    La Inmaculada
+                </h1>
+                <p class="large">
+                    Futura bachiller técnico profecional en informática..
+                </p>
+                
+            </div>
+            <img src="fotoev.jpeg" alt="" />
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="box">
+                
+                <h4>Familia:</h4>
+                <p>
+                    Vivo con mi papá, mamá, abuela, mi hermana mayor y 3 gatos.
+                </p>
+            </div>
+            <div class="box">
+                <h4>Hobbies:</h4>
+                <p>
+                    Me gusta cocinar, leer, salir a caminar y salir los fines de semana con mis amigos.
+                </p>
+            </div>
+            <div class="box">
+                
+                <h4>Comidas:</h4>
+                <p>
+                Mis comidas favoritas son: la pizza y pastas, tambíen me gusta las papas fritas, ensaladas, pollo. Me gustan las frutas como los mangos, piña, melón y las fresas
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <h2 class="display-1">ESTUDIOS</h2>
+            <div class="work-row">
+            <p>
+                    Mi preparatoria o estudios básicos los hice en una escuela pública cerca de mi casa: "Pablo Portillo Figueroa". Desde 2017 estudio en el "Instituto Marista La Inmaculada" este año es mi graduación de bachillerato y luego me gustaría estudiar en la "Univerdidad Nacional Autónoma de Honduras".
+                    </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="display-1">SOBRE MÍ</h2>
+            <div class="about-row">
+                <div class="about-row-box">
+                    <img src="fotoh.jpeg" alt="" />
+                </div>
+                <div class="about-row-box">
+                    <p>
+                        Mi nombre completo es Dulce María Lanza López, tengo 16 años y cumplo los 17 el 11 de agosto. Soy la hija menor, solo tengo una hermana, Mónica Lanza. Mis padres: "José Armando Lanza" y "Nubia Yamileth López" son comerciantes, tiene su negocio propio en casa. Somos una familia algo pequeña pero sabemos adaptarnos.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="display-1">CONTACTOS</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-green">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
